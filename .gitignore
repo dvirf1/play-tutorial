@@ -1,0 +1,16 @@
+# hidden files
+.idea/
+.jekyll-cache/
+.DS_Store
+
+# python compiled files
+*.pyc
+
+# jekyll debug
+_site
+
+# Jeykll Gemfile.lock
+Gemfile.lock
+
+# bundle cache
+vendor

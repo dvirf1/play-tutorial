@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "tags.css",
+	"sources": [
+		"tags.scss"
+	],
+	"sourcesContent": [
+		"/*!\n* Styles for Tab Tags\n* v2.0\n* https://github.com/cotes2020/jekyll-theme-chirpy\n* © 2019 Cotes Chung\n* MIT License\n*/\n\n.tag {\n  border-radius: 0.7em;\n  padding: 6px 8px 7px;\n  margin-right: .8rem;\n  line-height: 3rem;\n  letter-spacing: 0;\n  border: 1px solid var(--tag-border, #dee2e6) !important;\n  box-shadow: 0 0 3px 0 var(--tag-shadow, #e9ecef);\n}\n\n.tag span {\n  margin-left: 0.6em;\n  font-size: 0.7em;\n  font-family: 'Oswald', sans-serif;\n}\n\na.tag:hover {\n  text-decoration: none;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;;EAME,AAEF,AAAA,IAAI,AAAC,CACH,aAAa,CAAE,KAAK,CACpB,OAAO,CAAE,WAAW,CACpB,YAAY,CAAE,KAAK,CACnB,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,CAAC,CACjB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,0BAA0B,CAAC,UAAU,CACvD,UAAU,CAAE,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC,0BAA0B,CACjD,AAED,AAAA,IAAI,CAAC,IAAI,AAAC,CACR,WAAW,CAAE,KAAK,CAClB,SAAS,CAAE,KAAK,CAChB,WAAW,CAAE,oBAAoB,CAClC,AAED,AAAA,CAAC,AAAA,IAAI,AAAA,MAAM,AAAC,CACV,eAAe,CAAE,IAAI,CACtB"
+}
