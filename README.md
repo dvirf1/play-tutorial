@@ -15,7 +15,7 @@ Complete the first time setup and then:
 
 ```bash
 bundle exec jekyll serve
-# browse to http://localhost:4000
+# browse to http://localhost:4000/play-tutorial/
 ```
 
 ### Installation Instructions

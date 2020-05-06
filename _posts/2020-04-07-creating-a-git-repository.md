@@ -37,7 +37,7 @@ Now we will add a remote repository and push our changes.
 ## Create a remote repository
 
 Let's create a new github (remote) repository:  
-Browse to [GitHub](https://bitbucket.org/dashboard/overview), click the `+` (create) button, and click `New repository`.  
+Browse to [GitHub](https://github.com/), click the `+` (create) button, and click `New repository`.  
 Fill out the following:
 
 |Field                                    |Value|
@@ -63,5 +63,5 @@ In your project directory in your terminal, run:
 and push the commits from the local master branch to the remote origin by running:  
 `git push -u origin master`.
 
-Refresh the bitbucket window in your browser to see your code there.  
+Refresh the github tab in your browser to see your code there.  
 Run `git log` again and see that HEAD now points to `master` and `origin/master`.
