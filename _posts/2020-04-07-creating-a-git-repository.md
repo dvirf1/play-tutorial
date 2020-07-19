@@ -2,7 +2,7 @@
 title: "Creating a git repository"
 date: 2020-04-07 00:00:06 +0200
 categories: [git]
-tags: [git, bitbucket]
+tags: [git, github]
 ---
 
 We will create a git repository to host our code.

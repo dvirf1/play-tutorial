@@ -84,7 +84,8 @@ In `build.sbt`: enable the `AshScriptPlugin` for your root project (which is cur
 `lazy val root = (project in file(".")).enablePlugins(PlayScala, AshScriptPlugin)`
 - Run `reload` in the sbt shell for the changes to take effect.
 - Create a new image by running `docker:publishLocal` in the sbt shell.
-- Run a docker container of your application: `docker run --rm -p 9000:9000 playground-api`
+- Run a docker container of your application: `docker run --rm -p 9000:9000 playground-api`.  
+  If you see a message like `is_cygwin: not found` you can ignore it. It is an output of the start script.
 - Browse to [http://localhost:9000](http://localhost:9000) - You should see a "Welcome to Play!" message.
 - Go back to the terminal and press ctrl+C to remove the docker container (and shut down the server)
 
